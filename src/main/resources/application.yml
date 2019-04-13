@@ -1,0 +1,29 @@
+server:
+  port: 8081
+spring:
+  profiles:
+    active: dev
+---
+server:
+  port: 8082
+spring:
+  profiles: dev
+---
+server:
+  port: 8083
+  spring:
+    profiles: product
+
+
+#person:
+#  name: 铮铮
+#  age: 18
+#  boss: false
+#  birth: 2010/1/1
+#  maps: {k1: v1,k2: v2}
+#  lists:
+#    - lisi
+#    - zhangsan
+#  dog:
+#    name: 铮铮
+#    age: 2
